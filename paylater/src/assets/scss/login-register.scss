@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "nulshock";
+  src: url("../nulshock/nulshockbd.ttf");
+}
+
+.irloan-login-title {
+  font-family: "nulshock";
+}
+
+
+.welcome-to {
+  margin-top: 50px;
+}
+
+.save-money {
+  margin-left: 50px;
+}
+
+.register-title {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register-card-style {
+  box-shadow: 0 0 0 0 rgba(90, 113, 208, 0.11), 0 4px 16px 0 rgba(167, 175, 183, 0.33);
+    border: 1px solid #dde4eb;
+  background-color: white;
+  border-radius: 6px;
+  transition: all .2s;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // label {
+  //     color: ;
+  // }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance:textfield;
+  }
+
+  .hash {
+      font-family: "muli-semi-bold";   
+      color: #563c91;
+      display:none;
+  }
+
+  .register-card-header {
+      padding: 15px 24px;
+      .my-title {
+          font-family: "muli-semi-bold";    
+      }
+      font-family: "muli-semi-bold";
+      font-size: 18px;
+      // color: ${props => props.layoutTheme.headingColor};
+  }
+
+  .register-card-body {
+      padding: 0 24px 24px;
+      .prism-code {
+          margin-bottom: 0px;
+      }
+
+      .register-card-description {
+          font-size: 15px;
+          margin-bottom: 15px;
+          font-weight: 500;
+          // color: ${props => props.layoutTheme.textColor};
+      }
+  }
+}
+
+#logo-irma-login {
+  width : 450px;
+}
+
+#login-icon-irma {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.image-area {
+  border: 2px dashed #dddddd;
+  position: relative;
+}
+
+.image-area::before {
+  content: 'Uploaded image result';
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.5rem;
+  z-index: 1;
+}
+
+.image-area img {
+  z-index: 2;
+  position: relative;
+}
+
+.custom-datepicker {
+  border-radius: 6px !important;
+  font-size: 14px !important;
+  border: 1px solid #ddd !important;
+  padding: 8px;
+  width: 100%;
+  &:focus {
+      border: 1px solid #9a9a9a !important;
+      box-shadow: none !important;
+      outline: 0;
+  }
+}
+
+
+@media all and (max-width: 480px) { 
+  .login-container {
+    margin-top : 0 !important;
+  }
+
+  #logo-irma-login {
+    margin-bottom: 30px !important;
+  }
+
+  .login-title {
+    font-size: 1.5rem;
+  }
+
+  .bottom-login {
+    margin-top: 50px;
+  }
+
+  .save-money {
+    font-size: 1.39rem;
+    margin : 0 !important
+  }
+
+  .welcome-to {
+    margin-top: 0px;
+    margin: auto !important;
+    justify-content: none;
+  }
+
+  .register-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .tabs-register {
+    margin-top: 50px !important;
+  }
+
+  .login-form-container {
+    padding: 0 !important;
+    margin-left: 5px;
+  }
+}  

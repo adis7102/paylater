@@ -1,0 +1,180 @@
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+
+  .loginForm-appear {
+    animation: 2s fadeInUp ease;
+    }
+
+    @-webkit-keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      
+      @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      
+        to {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+    
+    .loginTitleAnimate-appear {
+        animation: 3s fadeInLeft ease;
+    }
+
+
+    @-webkit-keyframes slideInDown {
+        from {
+          -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+          visibility: visible;
+        }
+      
+        to {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      
+      @keyframes slideInDown {
+        from {
+          -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+          visibility: visible;
+        }
+      
+        to {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+      }
+
+      .slideInDown-appear {
+        animation: 3s slideInDown ease;
+      }
+
+
+      @-webkit-keyframes rotateIn {
+        from {
+          -webkit-transform-origin: center;
+          transform-origin: center;
+          -webkit-transform: rotate3d(0, 0, 1, -200deg);
+          transform: rotate3d(0, 0, 1, -200deg);
+          opacity: 0;
+        }
+      
+        to {
+          -webkit-transform-origin: center;
+          transform-origin: center;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          opacity: 1;
+        }
+      }
+      
+      @keyframes rotateIn {
+        from {
+          -webkit-transform-origin: center;
+          transform-origin: center;
+          -webkit-transform: rotate3d(0, 0, 1, -200deg);
+          transform: rotate3d(0, 0, 1, -200deg);
+          opacity: 0;
+        }
+      
+        to {
+          -webkit-transform-origin: center;
+          transform-origin: center;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          opacity: 1;
+        }
+      }
+
+      .rotateIn-appear {
+        animation: 3s rotateIn ease;
+      }
+
+
+    @keyframes infinitiRotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+        }
+    
+    }
+
+    #infinitiRotation {
+        animation: infinitiRotation 5s infinite linear
+    }
+
+
+    @-webkit-keyframes fadeOut {
+        from {
+          opacity: 1;
+        }
+      
+        to {
+          opacity: 0;
+        }
+      }
+      
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+        
+        to {
+            opacity: 0;
+        }
+    }
+    
+    .fadeOut-leave {
+        animation: 1.5s fadeOut ease;
+    }
