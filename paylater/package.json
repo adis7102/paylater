@@ -57,7 +57,7 @@
         "styled-components": "^4.4.1",
         "styled-theme": "^0.3.3",
         "sweetalert2": "^9.5.4",
-        "xlsx": "^0.15.4",
+        "xlsx": "^0.17.0",
         "xregexp": "^4.2.4",
         "yup": "^0.27.0"
     },
